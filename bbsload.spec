@@ -33,8 +33,8 @@ mo¿e te¿ pracowaæ z innym zarz±d± okien.
 %build
 rm -f missing
 aclocal
-autoconf
-automake -a -c -f
+%{__autoconf}
+%{__automake}
 %configure
 %{__make} CXX="%{__cc}"
 
