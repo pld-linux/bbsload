@@ -33,6 +33,7 @@ mo¿e te¿ pracowaæ z innym zarz±d± okien.
 %patch0 -p1
 
 %build
+rm -f missing
 aclocal
 autoconf
 automake -a -c
