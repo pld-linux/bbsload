@@ -30,6 +30,7 @@ mo¿e te¿ pracowaæ z innym zarz±d± okien.
 
 %build
 rm -f missing
+cp -f /usr/share/automake/config.sub .
 %{__aclocal}
 %{__autoconf}
 %{__automake}
