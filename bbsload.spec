@@ -34,7 +34,7 @@ mo¿e te¿ pracowaæ z innym zarz±d± okien.
 rm -f missing
 aclocal
 autoconf
-automake -a -c
+automake -a -c -f
 %configure
 %{__make} CXX="%{__cc}"
 
