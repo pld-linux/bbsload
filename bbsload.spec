@@ -2,7 +2,7 @@ Summary:	A system load mozitor designed for blackbox
 Summary(pl):	Monitor obci±¿enia systemu zaprojektowany dla blackboksa
 Name:		bbsload
 Version:	0.2.5
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
 Source0:	http://bbtools.windsofstorm.net/sources/%{name}-%{version}.tar.gz
@@ -32,7 +32,7 @@ mo¿e te¿ pracowaæ z innym zarz±d± okien.
 
 %build
 rm -f missing
-aclocal
+%{__aclocal}
 %{__autoconf}
 %{__automake}
 %configure
@@ -43,13 +43,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} DESTDIR=$RPM_BUILD_ROOT install
 
-gzip -9nf BUGS README TODO
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc BUGS README TODO
 %attr(755,root,root) %{_bindir}/bb*
 %config(noreplace) %verify(not md5 size mtime) %{_sysconfdir}/bbtools/%{name}.*
