@@ -22,7 +22,7 @@ settings), but can work also with other WM.
 %description -l pl
 bbsload monitoruje obci±¿enie systemu i zajêto¶æ pamiêci.
 Jest zintegrowany z blackboxem (u¿ywa jego ustawieñ wygl±du), aczkolwiek
-mo¿e te¿ pracowaæ z innym zarz±d± okien.
+mo¿e te¿ pracowaæ z innym zarz±dc± okien.
 
 %prep
 %setup -q
