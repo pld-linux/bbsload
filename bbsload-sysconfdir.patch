@@ -1,0 +1,21 @@
+diff -ur bbsload-0.2.5-orig/Makefile.am bbsload-0.2.5/Makefile.am
+--- bbsload-0.2.5-orig/Makefile.am	Sun Apr  9 12:27:34 2000
++++ bbsload-0.2.5/Makefile.am	Wed Jan 23 20:47:42 2002
+@@ -1,6 +1,6 @@
+ CPPFLAGS =	@CPPFLAGS@ @INTERLACE@ \
+-		-DGLOBAL_BB=\"$(datadir)/bbtools/bbsload.bb\" \
+-		-DGLOBAL_NOBB=\"$(datadir)/bbtools/bbsload.nobb\"
++		-DGLOBAL_BB=\"$(sysconfdir)/bbtools/bbsload.bb\" \
++		-DGLOBAL_NOBB=\"$(sysconfdir)/bbtools/bbsload.nobb\"
+ 
+ SUBDIRS = data
+ bin_PROGRAMS = bbsload
+diff -ur bbsload-0.2.5-orig/data/Makefile.am bbsload-0.2.5/data/Makefile.am
+--- bbsload-0.2.5-orig/data/Makefile.am	Sat Apr  8 22:02:25 2000
++++ bbsload-0.2.5/data/Makefile.am	Wed Jan 23 20:50:04 2002
+@@ -1,4 +1,4 @@
+-configdir = $(datadir)/bbtools
++configdir = $(sysconfdir)/bbtools
+ CLEANFILES = bbtoolsrc 
+ 
+ config_DATA =   bbsload.nobb \
