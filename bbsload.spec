@@ -1,5 +1,5 @@
 Summary:	A system load mozitor designed for blackbox
-Summary(pl):	Monitor obci±¿enia systemu zaprojektowany dla blackboksa
+Summary(pl.UTF-8):   Monitor obciÄ…Å¼enia systemu zaprojektowany dla blackboksa
 Name:		bbsload
 Version:	0.2.8
 Release:	3
@@ -20,10 +20,10 @@ bbsload monitors system, and memory load.
 It is highly integrated with blackbox window manager (can use it's theme
 settings), but can work also with other WM.
 
-%description -l pl
-bbsload monitoruje obci±¿enie systemu i zajêto¶æ pamiêci.
-Jest zintegrowany z blackboxem (u¿ywa jego ustawieñ wygl±du), aczkolwiek
-mo¿e te¿ pracowaæ z innym zarz±dc± okien.
+%description -l pl.UTF-8
+bbsload monitoruje obciÄ…Å¼enie systemu i zajÄ™toÅ›Ä‡ pamiÄ™ci.
+Jest zintegrowany z blackboxem (uÅ¼ywa jego ustawieÅ„ wyglÄ…du), aczkolwiek
+moÅ¼e teÅ¼ pracowaÄ‡ z innym zarzÄ…dcÄ… okien.
 
 %prep
 %setup -q
