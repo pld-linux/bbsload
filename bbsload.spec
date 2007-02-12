@@ -1,5 +1,5 @@
 Summary:	A system load mozitor designed for blackbox
-Summary(pl.UTF-8):   Monitor obciążenia systemu zaprojektowany dla blackboksa
+Summary(pl.UTF-8):	Monitor obciążenia systemu zaprojektowany dla blackboksa
 Name:		bbsload
 Version:	0.2.8
 Release:	3
